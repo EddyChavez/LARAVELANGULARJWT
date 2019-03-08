@@ -36,7 +36,7 @@ import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
     SnotifyModule
 
   ],
-  providers: [JarwisService, TokenService, AuthService, AfterLoginService, BeforeLoginService, { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
+  providers: [JarwisService, TokenService, AuthService, AfterLoginService, BeforeLoginService, { provide: 'SnotifyToastConfig', useValue: ToastDefaults },
   SnotifyService],
   bootstrap: [AppComponent]
 })

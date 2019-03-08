@@ -32,7 +32,6 @@ export class RequestResetComponent implements OnInit {
   }
 
   handleResponse(res) {
-    console.log(res)
     this.Notfiy.success(res.data,{timeout:0});
     this.form.email = null;
   }
